@@ -1,0 +1,108 @@
+/* body{
+    background-image: url(./IMAGES/home\ page\ back.png);
+    background-size: cover; /* This ensures the image covers the entire background */
+    /* background-position: center; /* This centers the image in the background */
+    /* background-repeat: no-repeat; 
+    opacity: 80; */
+/* }  */
+*{
+    background: #0c192c;
+    color: white;
+}
+
+body{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 20px;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-size: 20px;
+}
+
+.More{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.menu{
+    font-size: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.menupic img {
+    width: 300px;
+    height: 50; 
+    border-radius: 50px;
+}
+
+.gaming-sec > .menupic img {
+    height: 240px;
+}
+
+.games img {
+    width: 300px;
+    height: auto; 
+    border-radius: 50px;
+}
+
+.games{
+    margin-bottom: 60px;
+}
+
+
+.menu-sec{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.gaming-sec{
+    display: inline-block;
+    margin-left: 50%;
+}
+
+.menu-items img{
+    border-radius: 30%;
+}
+
+
+.item-1 {
+    display: inline-block;
+    padding-right: 30px;
+    /* margin-left: 80px; */
+}
+
+.item-2 {
+    display: inline-block;
+    padding-right: 30px;
+    margin-left: 35px;
+}
+
+.item-3 {
+    display: inline-block;
+    padding-right: 30px;
+    margin-left: 70PX;
+}
